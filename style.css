@@ -120,7 +120,7 @@
         }
 
     :root {
-    --primary-green: #2ecc71; /* Apnar primary color code ekhane bosaben */
+    --primary-green: #2ecc71; 
 }
 
 .hero-btns {
@@ -140,15 +140,15 @@
     font-weight: bold;
     font-size: 16px;
     border: none;
-    display: inline-block; /* Layout thik rakhar jonno */
-    transition: all 0.3s ease; /* Hover smooth korar jonno */
+    display: inline-block; 
+    transition: all 0.3s ease; 
 }
 
 #button-1:hover {
     background-color: black !important; 
-    color: white; /* Black background e white text beshi bhalo dekhabe */
+    color: white; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
-    transform: translateY(-2px); /* Ektu upore uthbe dekhte bhalo lage */
+    transform: translateY(-2px); 
 }
 
 .btn-outline {
@@ -199,10 +199,12 @@
         }
 
         .problems h2 { font-size: 36px; 
-            margin-bottom: 15px; }
+            margin-bottom: 15px;
+         }
         .sub-text { color: var(--text-gray); 
             margin-bottom: 60px; 
-            font-size: 18px; }
+            font-size: 18px; 
+        }
 
         .problem-grid {
             display: grid;
@@ -234,9 +236,19 @@
             font-size: 20px;
         }
 
-        .icon-red { background: #ff6b6b; }
-        .icon-orange { background: #ff9f43; }
-        .icon-pink { background: #ee5253; }
+        .icon-red { 
+            background: #ff6b6b; 
+        }
+    
+        .icon-blue { 
+            background: #54a0ff; 
+        }
+        .icon-orange { 
+            background: #ff9f43; 
+        }
+        .icon-pink { 
+            background: #ee5253;
+         }
 
         .card h3 { 
             margin-bottom: 12px; 
@@ -353,9 +365,11 @@
             opacity: 0.8; 
             transition: 0.3s; 
         }
+
         social a i {
     font-family: "Font Awesome 6 Brands"; 
-    font-weight: 400;}
+    font-weight: 400;
+        }
         .social a:hover {
             opacity: 1; 
             color: var(--primary-green); 
@@ -366,6 +380,7 @@
             border-top: 1px solid rgba(255,255,255,0.1); 
             margin-bottom: 25px; 
         }
+
         .copy { 
             text-align: center; 
             font-size: 13px; 
